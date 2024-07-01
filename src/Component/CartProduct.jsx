@@ -23,8 +23,8 @@ const CartProduct = ({ product }) => {
         dispatch({ type: "Remove", id });
     };
 
-    return (
-         <div className="d-flex mb-3 border mt-3 p-3" style={{borderRadius:20}}>
+     return (
+        <div className="d-flex mb-3 border mt-3 p-3" style={{borderRadius:20}}>
             <img src={product.image} alt="" className="img-thumbnail" style={{ width: '150px', height: '200px'  }} />
             <div className="detail ms-3" style={{color:"white",fontWeight:900}}>
                 <h4>{product.title}</h4>
