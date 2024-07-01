@@ -24,9 +24,9 @@ const CartProduct = ({ product }) => {
     };
 
     return (
-        <div className="d-flex mb-3 border mt-3 p-3">
-            <img src={product.image} alt="" className="img-thumbnail" style={{ width: '100px', height: '100px' }} />
-            <div className="detail ms-3">
+         <div className="d-flex mb-3 border mt-3 p-3" style={{borderRadius:20}}>
+            <img src={product.image} alt="" className="img-thumbnail" style={{ width: '150px', height: '200px'  }} />
+            <div className="detail ms-3" style={{color:"white",fontWeight:900}}>
                 <h4>{product.title}</h4>
                 <h4>${product.price}</h4>
                 <div className="buttons my-2">
